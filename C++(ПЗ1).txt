@@ -1,0 +1,38 @@
+ Варіант 6
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main() {
+  double a = 4;
+  double b = 1.310; // 
+  
+  double y = 3*cos(b) - 1 + (1 - log(a))*exp(1);
+  
+  cout << "y = " << y << endl;
+
+  return 0;
+}
+
+y = 3.03801
+
+
+
+Варіант 11                                                                                                                                  
+ # include <iostream>    
+ #include <math.h>
+
+using namespace std;
+
+int main() { double a = 1; double b = 20.01;
+
+double y = 0.719pow(b,2) + 3cos(log(b)/a*M_PI) + 2/pow(a,2) + 6;
+
+cout << "y = " << y << endl;
+
+return 0;
+
+}
+
+y = 293.67
